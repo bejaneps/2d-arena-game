@@ -1,0 +1,10 @@
+TODO: Implement threads for rendering
+
+	std::thread *tt = new(std::nothrow) std::thread[4];
+	if(tt == nullptr)
+	{
+		std::cerr << "threads bad alloc" << std::endl;
+		window.close();
+	}
+
+TODO: 
