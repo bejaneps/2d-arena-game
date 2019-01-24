@@ -10,7 +10,7 @@
 #include <cassert>
 #include <memory>
 
-enum class Type {PLAYER, NPC, GROUND, VEGETATION, BUILDING, ROAD, STONE, BRIDGE, MISC};
+enum class Type {Player, NPC, MOB, Ground, Vegetation, Building, Road, Stone, Bridge, Misc};
 
 
 template <typename RES, typename ID>
@@ -23,10 +23,10 @@ public:
 	ResHolder();
 	~ResHolder();
 
-	void load(ID id, const std::string &filename);
+	void 		load(ID id, const std::string &filename);
 
-	RES& get(ID id);
-	const RES& get(ID id) const;
+	RES& 		get(ID id);
+	const RES& 	get(ID id) const;
 };
 
 #include "../methods/res_holder.inl"
