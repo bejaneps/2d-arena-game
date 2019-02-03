@@ -1,0 +1,2 @@
+all:
+	g++ -std=c++14 main.cpp ../methods/main_methods.cpp -o game.exe -DSFML_STATIC -I"D:\SFML\sfml\include" -L"D:\SFML\sfml\lib" -lsfml-graphics -lsfml-window -lsfml-system -lwinmm -lopengl32 -lgdi32 -lfreetype

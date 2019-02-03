@@ -1,0 +1,23 @@
+sfml-window
+	sfml-system
+	opengl32
+	winmm
+	gdi32
+sfml-graphics
+	sfml-system
+	sfml-window
+	opengl32
+	freetype
+sfml-audio
+	sfml-system
+	openal32
+	flac
+	vorbisenc
+	vorbisfile
+	vorbis
+	ogg
+sfml-network
+	sfml-system
+	ws2_32
+sfml-system
+	winmm
