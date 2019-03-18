@@ -4,10 +4,10 @@ Game::Game(std::pair<short, short> size)
 :	mWindow(sf::VideoMode(size.first, size.second), "Arena Game", sf::Style::Default), 
 	mTimePerFrame(sf::seconds(1.f / 60.f)), mPlayerSpeed(200.f)
 {
-	res.load(Type::PLAYER, "../../../Assets/Players/Viking Sample.png");
+	res.load(Type::Player, "../../../Assets/Players/Viking Sample.png");
 	res.load(Type::NPC, "../../../Assets/Players/NPC/NPC BLUE.png");
 
-	mPlayer.setTexture(res.get(Type::PLAYER));
+	mPlayer.setTexture(res.get(Type::Player));
 	mPlayer.setPosition(200.f, 200.f);
 
 	mWindow.setVerticalSyncEnabled(true);
