@@ -4,7 +4,7 @@
 -------------------------------------------------------------
 Desktop game which is developed by indie developers mainly for Linux system. In this game a player will have his unique character to play with. Character will be able to use magic, physical damage and etc. Game is developed very slowly, because of business of developers.
 
-![Game Map](Assets/Town/"Map RPG-2.png")
+![Game Map](Assets/Town/Map\ RPG-2.png)
 
 ## Build
 -------------------------------------------------------------
